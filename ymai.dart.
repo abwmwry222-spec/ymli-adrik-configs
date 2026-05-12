@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+class YmaiPage extends StatefulWidget {
+  const YmaiPage({super.key});
+
+  @override
+  State<YmaiPage> createState() => _YmaiPageState();
+}
+
+class _YmaiPageState extends State<YmaiPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('YMAI Page'),
+        backgroundColor: Colors.deepPurple,
+      ),
+      body: const Center(
+        child: Text('مرحباً بك في صفحة YMAI'),
+      ),
+    );
+  }
+}
